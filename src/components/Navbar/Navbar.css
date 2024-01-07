@@ -1,0 +1,59 @@
+.Navbar {
+  padding: 1px;
+  background-color: var(--body-background);
+  padding-left: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+}
+.Navbar .yt-logo {
+  width: 6em;
+  max-width: 100%;
+}
+.Navbar .nav-menu-icon {
+  display: none;
+  margin-right: 20px;
+}
+.Navbar .user-icon {
+  width: 1.8em;
+}
+.Navbar .user-icon img {
+  width: 35px;
+  border-radius: 50%;
+}
+.Navbar .nav-section-right {
+  max-width: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-section-right .search-icon{
+    margin-right: 30px;
+    font-size: 1.4em;
+    font-weight: var(--h4-weight);
+}
+/* Media queries */
+
+@media (min-width: 345px) {
+}
+
+@media (min-width: 576px) {
+  .Navbar {
+    padding-left: 20px;
+  }
+  .Navbar .yt-logo {
+    width: 6em;
+  }
+  .Navbar .nav-menu-icon {
+    display: unset;
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}

@@ -1,0 +1,42 @@
+:root {
+  --body-background: #f1f1f1;
+  --primary-color: #e1e1e1;
+  --body-color: black;
+  --container-color: #aaaaaa;
+  --link-color: #2793e8;
+  --h4-weight: 600;
+  --logo: require("./components/Navbar/utils/YouTube-Logo.wine.png");
+}
+
+[data-theme="dark"] {
+  --body-background: #181818;
+  --primary-color: #3d3d3d;
+  --body-color: #ffff;
+  --container-color: #3d3d3d;
+  --link-color: #2793e8;
+  --logo: require("./components/Navbar/utils/yt_logo_mono_dark.png");
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--body-background);
+  color: var(--body-color);
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
